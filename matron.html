@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Borderlands 2 Skill Calculator: Matron</title>
+	<link href='main.css' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Homenaje' rel='stylesheet' type='text/css'>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+	<script src="skillManager.js"></script>
+</head>
+<body>
+
+<div class="header">
+	<div class="links"><a class="reset" href="custom.html">&lt; go back</a> | <a class="reset" href="index.html">Home</a> | <a href="matron.html" class="reset">reset</a> | <a href="#" class="permalink">Permalink to this build</a></div>
+	<h1>Borderlands<em>2</em> skill calculator <div class="stamp">(Custom)</div></h1>
+	<h2>Ceroba</h2>
+	<h3>Level <span class="charLevel">5</span> Matron</h3>
+</div>
+<div>
+	<div class="actionSkill"><img src="icons/matron_icons/image.png"/>
+		<div class="description"><h2>A Mother's Wrath</h2>Action Skill. Don your mask, instantly restoring 20% of your Health, gaining 10% Damage Reduction and 15% increased Health. While transformed, 10% of damage you receive, reflected or otherwise, is stored. Recasting your Action Skill will Slam your Staff, releasing this stored damage in an area around you, ending the Action Skill. Slam damage is capped at a Minimum of 25% of your Max HP and a Maximum of 250% of your Max HP Cooldown: 75 seconds</div>
+		<div class="points">1/1</div>
+	</div>
+</div>
+<div class="treeCollection">
+<div class="treewrapper green">
+	<div class="bglayer gray"></div>
+	<div class="bglayer color"></div>
+	<div class="tree">
+		<div class="tier" data-level="0" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="icons/matron_icons/CerobaIconsTransparent/Left Tree/corn-fed.png">
+				<div class="description"><h2>Corn-Fed</h2>Gain <em data-base="+4"></em>% Max Health and <em data-base="+0.4"></em>% Health Regen<span class="perLevel"> per level.</span></div>
+				<div class="points"></div>
+			</div>
+			<div class="skill push1" data-points="0" data-max="5"><img src="icons/matron_icons/CerobaIconsTransparent/Left Tree/blossom.png">
+				<div class="description"><h2>Blossom</h2>While at Full Health, Generate a stack of Blossom per second. <em data-base="+15"></em> Max Stacks, <span class="perLevel"> per level.</span> When dropping below Full Health, rapidly spend stacks to restore 0.4% per stack HP to self and nearby allies until Health is Full or all stacks are spent. If ally health is full, restore their shields instead. Stack generation is tripled after not taking damage for 6 seconds.<span class="perLevel"> </span></div>
+				<div class="points"></div>
+			</div>
+		</div>
+
+		<div class="tier" data-level="1" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="icons/matron_icons/CerobaIconsTransparent/Left Tree/eye-for-an-eye.png">
+				<div class="description"><h2>Eye for an Eye</h2>While Action Skill is on cooldown, periodically redirect <em data-base="+4"></em>% of Allies incoming damage back at their most recent attackers, dealing <em data-base="+2"></em>% of your Max HP as damage,<span class="perLevel"> per level.</span> While Action Skill is Active, this damage is instead continuously redirected to you. Damage will no longer be redirected while you are at or Below 55% HP. When no other ally is nearby or present, deal this redirected damage to your most recent attacker.</div>
+				<div class="points"></div>
+			</div>
+			<div class="skill push1" data-points="0" data-max="5"><img src="icons/matron_icons/CerobaIconsTransparent/Left Tree/eastern-hospitality.png">
+				<div class="description"><h2>Eastern Hospitality</h2>While Shields are Depleted, gain <em data-base="+1.5"></em>% Damage Reduction and dealing damage has a <em data-base="+2"></em>% chance to start Shield Recharge,<span class="perLevel"> per level.</span> Works on a per shot, not per-pellet basis and does not include damage over time effects.</div>
+				<div class="points"></div>
+			</div>
+		</div>
+		<div class="tier" data-level="2" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="icons/matron_icons/CerobaIconsTransparent/Left Tree/galavant.png">
+				<div class="description"><h2>Galavant</h2>Kills have a <em data-base="+7"></em>% chance of dropping Essence. Essence drops grant you and allies <em data-base="+1.5"></em>% bonus move speed on pickup for a few seconds,<span class="perLevel"> per level.</span> This effect can stack up to a cap and duration refreshes on each pickup.</div>
+				<div class="points"></div>
+			</div>
+			<div class="skill" data-points="0" data-max="1"><img src="icons/matron_icons/CerobaIconsTransparent/Left Tree/found-family.png">
+				<div class="description"><h2>Found Family</h2>Activating your Action Skill gives nearby Allies a Barrier that lasts for 1.5 seconds. This barrier deflects all incoming enemy damage and starts Shield Recharge. Killing 3 or more enemies with Staff Slam reapplies this barrier. Does not stack with other instances of A Mother's Wrath.</div>
+				<div class="points"></div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="icons/matron_icons/CerobaIconsTransparent/Left Tree/vanguard.png">
+				<div class="description"><h2>Vanguard</h2>When an ally is struck by an enemy, gain <em data-base="+3"></em>% increased Reload Speed, Draw Speed, and Fire Rate for a few seconds<span class="perLevel"> per level</span> per ally present. When you are struck by an enemy, your allies are granted this effect. When no other ally is nearby or present, gain this effect upon being struck by an enemy.</div>
+				<div class="points"></div>
+			</div>
+		</div>
+		<div class="tier" data-level="3" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="icons/matron_icons/CerobaIconsTransparent/Left Tree/happy_hour.png">
+				<div class="description"><h2>Happy Hour</h2>Acheiving a Second Wind grants you 6 seconds of <em data-base="+0.4"></em>%<span class="perLevel"> per level</span> Health and Ammo Regen. Rocket Launchers are Excluded. Reviving an ally now takes half as long and grants you both this effect.</div>
+				<div class="points"></div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="icons/matron_icons/CerobaIconsTransparent/Left Tree/raised_stake.png">
+				<div class="description"><h2>Raised Stakes</h2>Gain <em data-base="+2"></em>% increase to Move Speed when moving towards an ally at or below 50% HP,<span class="perLevel"> per level.</span> This bonus is doubled if moving towards an ally that is in Fight for your Life. Effect does not stack for multiple injured or downed allies. If no allies are present, receive up to <em data-base="+2"></em>% increased Move Speed based on your missing health<span class="perLevel"> per level.</span></div>
+				<div class="points"></div>
+			</div>
+		</div>
+		<div class="tier" data-level="4" data-invested="0" data-total="0">
+			<div class="skill push1" data-points="0" data-max="5"><img src="icons/matron_icons/CerobaIconsTransparent/Left Tree/widow_never_wanes.png">
+				<div class="description"><h2>Widow Never Wanes</h2>While Action Skill is Active, you and your nearby allies heal for <em data-base="+2"></em>% <span class="perLevel"> per level, </span>of the damage dealt by your Staff Slam. At Max Rank, killing 3 or more enemies with Staff Slam does not end your Action Skill, resets your stored damage pool, and allows for an additional slam. There is a 3 second cooldown between slams.</span></div>
+				<div class="points"></div>
+			</div>
+		</div>
+		<div class="tier" data-level="5" data-invested="0" data-total="0">
+			<div class="skill push1" data-points="0" data-max="1"><img src="icons/matron_icons/CerobaIconsTransparent/Left Tree/in_their_name.png">
+				<div class="description"><h2>In Their Name</h2>Your Action Skill now Taunts nearby enemies upon activation, and your Found Family barrier is now applied to you. Does not stack with other instances of A Mother's Wrath.</div>
+				<div class="points"></div>
+			</div>
+		</div>
+		<div class="totalPoints">
+			<span class="totalPoints">0</span>
+		</div>
+		<legend>Devoted</legend>
+	</div>
+</div>
+
+<div class="treewrapper blue">
+	<div class="bglayer gray"></div>
+	<div class="bglayer color"></div>
+	<div class="tree">
+		<div class="tier" data-level="0" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="icons/matron_icons/CerobaIconsTransparent/Mid Tree/Fleet_of_Foot.png">
+				<div class="description"><h2>Lightfoot</h2>Gain <em data-base="1.2"></em>% <span class="perLevel"> per level </span>Move Speed. At Max Rank, you are no longer slowed when aiming down sights.</div>
+				<div class="points"></div>
+			</div>
+			<div class="skill push1" data-points="0" data-max="5"><img src="icons/matron_icons/CerobaIconsTransparent/Mid Tree/Rustic_Arms.png">
+				<div class="description"><h2>Rustic Arms</h2>Gain <em data-base="+5"></em>% <span class="perLevel"> per level </span>Gun Damage, Draw Speed, Reload Speed, and Critical Damage for Pistols and Rifles. This increase is doubled for Jakobs manufactured weapons, regardless of gun type.</div>
+				<div class="points"></div>
+			</div>
+		</div>
+		<div class="tier" data-level="1" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="icons/matron_icons/CerobaIconsTransparent/Mid Tree/Feral_Flare1.png">
+				<div class="description"><h2>Feral Flare</h2>Kill Skill. Killing an enemy gives <em data-base="+10"></em>% chance your shots fired do <em data-base="+6"></em>% <span class="perLevel"> per level </span>bonus Incendiary Damage in addition to your gun's normal element for a few seconds. This chance is doubled when using non-elemental weapons.</div>
+				<div class="points"></div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="icons/matron_icons/CerobaIconsTransparent/Mid Tree/Sand_Treader.png">
+				<div class="description"><h2>Sand Treader</h2>Running without firing grants you <em data-base="+2"></em>% bonus Move Speed each second<span class="perLevel"> per level</span>. Speed is capped at <em data-base="+5"></em>%<span class="perLevel"> per level</span>. Firing while this effect is active will grant your next shot or melee bonus damage equal to your bonus Move Speed, resetting this effect.</div>
+				<div class="points"></div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="icons/matron_icons/CerobaIconsTransparent/Mid Tree/Fuel_the_Pyre.png">
+				<div class="description"><h2>Fuel the Pyre</h2>Increases Incendiary Effect Chance by <em data-base="+10"></em>% and Burn Damage ignited enemies take by <em data-base="+7.5"></em>%<span class="perLevel"> per level</span>. While you have enemies ignited, gain <em data-base="+6"></em>% bonus Fire Rate<span class="perLevel"> per level</span>.</div>
+				<div class="points"></div>
+			</div>
+		</div>
+		<div class="tier" data-level="2" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="icons/matron_icons/CerobaIconsTransparent/Mid Tree/Inner_Flame.png">
+				<div class="description"><h2>Inner Flame</h2>While Action Skill is Active, nearby enemy Fire Resistance is reduced by <em data-base="+1.5"></em>% each second <span class="perLevel"> per level</span>, up to a cap of -100%. This effect decays over time when out of range or action skill ends. Additionally, you are immune to being ignited, and gain <em data-base="+10"></em>% Fire Resist<span class="perLevel"> per level</span>.</div>
+				<div class="points"></div>
+			</div>
+			<div class="skill" data-points="0" data-max="1"><img src="icons/matron_icons/CerobaIconsTransparent/Mid Tree/Swealterstones1.png">
+				<div class="description"><h2>Swelterstones</h2>Critical kills with Guns have a <em data-base="+25"></em>% chance to trigger a Fire Nova on the target. While Action Skill is Active, this effect is guaranteed and novas produced this way leave a lingering area of effect. Nova damage is calculated based off a portion of the damage dealt by your last shot.</div>
+				<div class="points"></div>
+			</div>
+			
+			<div class="skill" data-points="0" data-max="5"><img src="icons/matron_icons/CerobaIconsTransparent/Mid Tree/Rampant_Singularity.png">
+				<div class="description"><h2>Rampant Singularity</h2>Gain <em data-base="-2.5"></em>% Shield Capacity and <em data-base="+5"></em>% Shield Recharge Rate<span class="perLevel">, per level</span>, doubled for Nova Shields. At Max Rank, all of your Novas now pull enemies towards them. This effect has a 12 second cooldown.</div>
+				<div class="points"></div>
+			</div>
+		</div>
+		<div class="tier" data-level="3" data-invested="0" data-total="0">
+			
+			<div class="skill push1" data-points="0" data-max="5"><img src="icons/matron_icons/CerobaIconsTransparent/Mid Tree/Ashes_to_Ashes.png">
+				<div class="description"><h2>Ashes to Assets</h2>Enemies you ignite burn <em data-base="+6"></em>% longer and deal <em data-base="-3"></em>% less damage<span class="perLevel"> per level</span>. Killing an ignited enemy reduces your Action Skill Cooldown by <em data-base="+1.5"></em>% <span class="perLevel"> per level</span>.</div>
+				<div class="points"></div>
+			</div>
+		</div>
+		<div class="tier" data-level="4" data-invested="0" data-total="0">
+			<div class="skill push1" data-points="0" data-max="5"><img src="icons/matron_icons/CerobaIconsTransparent/Mid Tree/Brushfire.png">
+				<div class="description"><h2>Brushfire</h2>Ignited enemies have a <em data-base="+10"></em>% chance<span class="perLevel"> per level</span> to ignite other nearby enemies. At Max Rank, enemies no longer regenerate health while ignited.</div>
+				<div class="points"></div>
+			</div>
+		</div>
+		<div class="tier" data-level="5" data-invested="0" data-total="0">
+			<div class="skill push1" data-points="0" data-max="1"><img src="icons/matron_icons/CerobaIconsTransparent/Mid Tree/Meltdown_1.png">
+				<div class="description"><h2>Meltdown</h2>All enemies can now be ignited and ignited enemies take increased damage from Fire. Additionally, your Staff Slam damage is converted into Incendiary Damage. Ignited enemy bonus damage works in a similar fashion to Slag, scaling with Game Difficulty. This increased damage does not stack with Slag.</div>
+				<div class="points"></div>
+			</div>
+		</div>
+		<div class="column3 totalPoints">
+			<span class="totalPoints">0</span>
+		</div>
+		<legend>Decisive</legend>
+	</div>
+</div>
+
+<div class="treewrapper red">
+	<div class="bglayer gray"></div>
+	<div class="bglayer color"></div>
+	<div class="tree" unselectable="on">
+		<div class="tier" data-level="0" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="4"><img src="icons/matron_icons/CerobaIconsTransparent/Right Tree/For_the_Family.png">
+				<div class="description"><h2>For the Family</h2>Activating your Action Skill begins Shield Recharge and increases it by <em data-base="+5"></em>%<span class="perLevel"> per level</span>.</div>
+				<div class="points"></div>
+			</div>
+			<div class="skill push1" data-points="0" data-max="1"><img src="icons/matron_icons/CerobaIconsTransparent/Right Tree/Indignation.png">
+				<div class="description"><h2>Indignation</h2>Dealing Gun Damage grants stacks of Indignation. Every stack of Indignation grants +2.5% increased Melee Damage, capping at 60 stacks. Your next melee attack expends all stacks.</div>
+				<div class="points"></div>
+			</div>
+		</div>
+		<div class="tier" data-level="1" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="icons/matron_icons/CerobaIconsTransparent/Right Tree/No_Return_.png">
+				<div class="description"><h2>No Return</h2>Your Melee Speed is increased by up to <em data-base="+15"></em>%,<span class="perLevel"> per level</span> based on Missing Health. While Action Skill is Active, start with 30% increased Melee Speed. Max Benefit at 25% HP.</div>
+				<div class="points"></div>
+			</div>
+			<div class="skill push1" data-points="0" data-max="5"><img src="icons/matron_icons/CerobaIconsTransparent/Right Tree/Vexation.png">
+				<div class="description"><h2>Vexation</h2>Melee Kills refunds <em data-base="+15"></em>% of spent Indignation stacks<span class="perLevel"> per level</span></div>
+				<div class="points"></div>
+			</div>
+		</div>
+		<div class="tier" data-level="2" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="icons/matron_icons/CerobaIconsTransparent/Right Tree/Maternal_Fury.png">
+				<div class="description"><h2>Maternal Fury</h2>Indignation's stack cap is increased by <em data-base="+12"></em><span class="perLevel"> per level</span>, and you passively gain +1 Indignation stacks per second while Action Skill is Active. At Max Rank, if you have no stacks, gain +20 upon Activating your Action Skill.</div>
+				<div class="points"></div>
+			</div>
+			<div class="skill" data-points="0" data-max="1"><img src="icons/matron_icons/CerobaIconsTransparent/Right Tree/Whom_the_Bell_Tolls.png">
+				<div class="description"><h2>Whom the Bell Tolls</h2>Melee Override. Sweep your staff, sending forth a wave of energy that converts your Melee Damage to Incendiary Damage. Kills with this skill reduce the cooldown of the next by 1.5 seconds, per enemy killed. This has a 15 second cooldown.</div>
+				<div class="points"></div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="icons/matron_icons/CerobaIconsTransparent/Right Tree/Honor_thy_Mother.png">
+				<div class="description"><h2>Honor thy Mother</h2>Receiving damage or dealing Melee damage generates stacks of Honor thy Mother, Capping at 150. Your next shot will expend all stacks and receive <em data-base="+0.2"></em>% Gun Damage per stack<span class="perLevel"> per level</span>.</div>
+				<div class="points"></div>
+			</div>
+		</div>
+		<div class="tier" data-level="3" data-invested="0" data-total="0">
+			<div class="skill push1" data-points="0" data-max="5"><img src="icons/matron_icons/CerobaIconsTransparent/Right Tree/Crimson_Tears.png">
+				<div class="description"><h2>Crimson Tears</h2>Critical kills have a <em data-base="+10"></em>% chance to restore <em data-base="+1.5"></em>% Health<span class="perLevel"> per level</span>. This chance is doubled while Action Skill is Active.</div>
+				<div class="points"></div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="icons/matron_icons/CerobaIconsTransparent/Right Tree/Looming_Presence1.png">
+				<div class="description"><h2>Looming Presence</h2>Kill Skill. Killing an enemy slows other nearby enemies by <em data-base="+5"></em>% and you deal <em data-base="+0.1"></em>% Max Health Bonus Damage to enemies<span class="perLevel"> per level</span>, up to a cap of 33% for a few seconds. Enemies at or below 66% Max HP no longer receive this bonus damage.</div>
+				<div class="points"></div>
+			</div>
+		</div>
+		<div class="tier" data-level="4" data-invested="0" data-total="0">
+			<div class="skill push1" data-points="0" data-max="5"><img src="icons/matron_icons/CerobaIconsTransparent/Right Tree/Spoil_the_Rod.png">
+				<div class="description"><h2>Spoil the Rod</h2>Your Melee has a 25% chance to be a Critical Hit, regardless of whether you hit an enemy's weakpoint and has increased Critical Damage by <em data-base="+5"></em>%<span class="perLevel"> per level</span>. While Action Skill is Active, this chance is doubled.</div>
+				<div class="points"></div>
+			</div>
+		</div>
+		<div class="tier" data-level="5" data-invested="0" data-total="0">
+			<div class="skill push1" data-points="0" data-max="1"><img src="icons/matron_icons/CerobaIconsTransparent/Right Tree/Nine_Tails_One_Life.png">
+				<div class="description"><h2>Nine Tails, One Life</h2>A Mother's Wrath can be activated during Fight for your Life, instantly giving a Second Wind. Activating your Action Skill this way doubles its Stat Increases, Cooldown, and Melee Override's Cooldown Reduction on kill, but halves Action Skill Duration.</div>
+				<div class="points"></div>
+			</div>
+		</div>
+		<div class="column3 totalPoints">
+			<span class="totalPoints">0</span>
+		</div>
+		<legend>Determined</legend>
+	</div>
+</div>
+</div>
+
+<div class="summary">
+	<h2>List of Skills:</h2>
+	<div class="descriptionContainer"></div>
+	<div class="footer">Art &copy; 2020 <a href="https://www.gearboxsoftware.com/" target="_blank">Gearbox Software</a> & <a href="https://daven.artstation.com/projects/8elGqQ" target="_blank">Max Davenport. <br><a href="https://www.google.com/webfonts" target="_blank">Fonts</a> by Google. <a href="https://github.com/seigler/bl2skills.com">Source Code</a> created by seigler and hosted on Github.</div></br>
+</div>
+
+</body>
+</html>
+
+<!--
+find:
+^(.+) \t[0-9]+ \t([0-9]+) \t(.+)$
+replace:
+\t\t<div class="skill" data-points="0" data-max="\2"><img src="icons/class-tree-\i(0)">\n\t\t\t<div class="description"><h2>\1</h2>\3</div>\n\t\t\t<div class="points"></div>\n\t\t</div>
+-->
